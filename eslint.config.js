@@ -16,7 +16,8 @@ export default [
       "no-console": "warn", 
       "@typescript-eslint/no-unused-vars": ["error"], 
       "semi": ["error", "always"], 
-      "quotes": ["error", "double"],  
+      "quotes": ["error", "double"],
+      "@typescript-eslint/no-namespace": ["error", { "allowDeclarations": true }] 
     },
   },
   pluginJs.configs.recommended, 
